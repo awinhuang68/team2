@@ -1,9 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
+/*
+requirement:
+Objective: Read a PPM image and write a new grayscale version.
+Method: Use the luminance formula: gray = 0.3R + 0.59G + 0.11*B.
+Output: New PPM file in grayscale. Hint: Replace R, G, B of each pixel with the grayscale value
+*/
 
 // Function to convert a color pixel to grayscale
-unsigned char toGray(unsigned char r, unsigned char g, unsigned char b) {
-    return (unsigned char)(0.3 * r + 0.59 * g + 0.11 * b);
+unsigned char toGray(unsigned char r, unsigned char g, unsigned char b) 
+{
+    //requirement: Method: Use the luminance formula: gray = 0.3R + 0.59G + 0.11*B.
+	return (unsigned char)(0.3 * r + 0.59 * g + 0.11 * b);
 }
 
 int main(int argc, char *argv[]) {
