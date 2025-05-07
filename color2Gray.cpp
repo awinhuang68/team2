@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 #include <sstream>
-
+// revision JuiwenHsu@2025-0507-1345: add code init
 using namespace std;
 
 struct PPMImage {
