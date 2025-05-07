@@ -13,3 +13,5 @@ gcc -o resize_image image.c
 ```sehll
 ./resize_image input.ppm output.ppm
 ```
+
+# Test pull request by write permission
